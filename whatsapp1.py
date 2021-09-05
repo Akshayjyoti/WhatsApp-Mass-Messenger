@@ -46,9 +46,9 @@ while i < count:
         if i == count:
             break
         if i % 18 == 0:                                              #may need to be updated based on Chrome version
-            pyautogui.moveTo(800,10)                #valid for 1080p display only
+            pyautogui.moveTo(800,10)                                 #valid for 1080p display only
             pyautogui.click()
-            pyautogui.moveTo(250, 500)              #valid for 1080p display only
+            pyautogui.moveTo(250, 500)                               #valid for 1080p display only
             pyautogui.scroll(-2200)                                  #may need to be updated based on Chrome version
             time.sleep(1)
             html = driver.page_source

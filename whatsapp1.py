@@ -77,4 +77,5 @@ print("\n\nThe message: " + msg + ", will be sent to the following people/groups
 for user in users:
     print(user)
 
+time.sleep(30)
 driver.close()
